@@ -1,0 +1,34 @@
+.dash-header img{
+    width: 100px;
+ } /*do head image logo first for css styling*/
+.dash-header{ 
+    display: flex; /* so that the items in the header are aligned horizontally */
+    justify-content: space-between; /*so that the items in the header are spaced out evenly */
+    padding: 20px; /* this is not 20px 10px 20px 10px; this is just 20px all around because the padding is applied to all sides so only need one number */
+    align-items: center; 
+    background-color: #e174eb; 
+}
+/* he mention to do the media content @ to see if logos size to destop and phone before contiing with setting up boxes do first----*/
+/*im assumig that to chnage loction of boxe it flexx aligment or padding make size of box smaller or bigger to fit in the screen size and then move it around with padding or flex alignment*/
+/*ask why my classs is greyed out but still loads style*/
+
+.dash-wrapper{
+    display: grid; /* this is to make the boxes in the wrapper to be aligned in a grid format */
+    grid-template-columns: 250px, 1fr; /* this is to make the first column 250px and the second column to take up the rest of the space as asked in intructions how to make it fixed tho not sure- so menaing ur making grid on the dash wrapper box split of one small box and one bigger box in rest- then the sidebarr and and stats grid is what fix into coloums */
+}
+
+.sidebar{ 
+    background-color: #d4aed7;
+
+} /* why at this point the side bar explaned to whole page ?*/ 
+
+.dash-content{ 
+    background-color: #2bdc66;
+
+}
+.stats-grid{
+    background-color: #7498eb;
+}
+
+/* ASK HOW TO CHECK MOBILE SETTING--- and how make secomd box stasts grid cloored and he siad cuz there no conetnt but that girl had red in back gorund  */ 
+    
